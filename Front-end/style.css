@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #18181a;
+}
+
+.item
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 70px;
+    margin: 10px 10px;
+    font-size: 23px;
+    padding:17px;
+    border-radius: 10px;
+    background-color: #242527;
+    color: white;
+}
+
+.display-item{
+    margin: 10px;
+}
+.editar{
+    color: rgb(94, 94, 231);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.deletar{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-new{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(1, 65, 22);
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+    margin-left: 265px;
+}
+.title{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 100px;
+    color: rgb(224, 224, 224);
+    margin-bottom: 60px;
+}
